@@ -1,0 +1,59 @@
+:root{
+    --primary: #2e4057;
+    --secondary: #048ba8;
+    --dark: #2f2d2e;
+    --lightw: #ffeedd  ;
+    --lighty: #fdfcfd;
+}
+*{
+    border: 1px solid black;
+}
+body{
+    background-color:var(--secondary);
+    margin: 0%;
+}
+
+header{
+    background-color: var(--primary);
+    width: 100%;
+}
+ul{
+    background-color: var(--primary)
+}
+
+li{
+    background-color: var(--primary);
+    display: inline-block;
+    margin: 10px 30px;
+    color: white;
+}
+
+.intro{
+    background-color:var(--dark);
+    align-content: center;
+}
+img{
+    margin: 0 100px;
+}
+.bio{
+    display: inline-block;
+    margin: 0px 100px;
+    padding: 0%;
+}
+.bio h1{
+    margin: 0%;
+}
+.bio h3{
+    margin: 0%;
+}
+.imgContainer{
+    display: inline-block;
+}
+
+h1{
+    width: 100%;
+    align-content: center;
+}
+.projects{
+    background-color: blanchedalmond;
+}
